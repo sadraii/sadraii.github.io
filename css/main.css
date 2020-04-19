@@ -66,6 +66,9 @@ article p img {
     vertical-align: middle;
     margin-right: 5px;
 }
+article p em {
+    color: #999;
+}
 footer {
 	background: #AEC6CF;
 	max-width: 1000px;
@@ -76,6 +79,10 @@ footer {
 footer p {
     padding: 20px;
     font-size: 10px;
+    color: #4b7281;
+}
+footer p a {
+	color: #4b7281;
 }
 aside > div {
 	margin: 10px auto;
@@ -93,7 +100,7 @@ main article:last-child {
 }
 #me {
     border-radius: 50%;
-    box-shadow: rgba(0,0,0,.2) 3px 3px 4px;
+    box-shadow: rgba(0,0,0,0.15) 0px 7px 14px 0px, rgba(0,0,0,.15) 0px 3px 6px 0px;
 }
 body > section {
     max-width: 1000px;
