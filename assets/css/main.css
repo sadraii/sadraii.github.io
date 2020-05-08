@@ -2593,7 +2593,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1.5em 0 0;
+			padding: 0 1.4em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -3887,6 +3887,11 @@ input, select, textarea {
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
+				margin-bottom: 2.5em;
+			}
+
+			#header .content ul.icons.blue .icon:hover {
+				color: #ffffff;
 			}
 
 		#header .image {
