@@ -2357,16 +2357,16 @@ input, select, textarea {
 					width: 2em;
 					height: 0.25em;
 					border-radius: 0.5em;
-					background: rgba(255, 255, 255, 0.25);
+					/* background: rgba(255, 255, 255, 0.25); */
 				}
 
 				.image.phone .inner:after {
-					bottom: -2.75em;
-					margin-left: -1em;
-					width: 2em;
-					height: 2em;
-					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
+					bottom: -1.9em;
+					margin-left: -2em;
+					width: 4em;
+					height: 0.25em;
+					border-radius: 0.5em;
+					/* border: solid 2px rgba(255, 255, 255, 0.25); */
 				}
 
 			.image.phone:before, .image.phone:after {
@@ -3787,7 +3787,8 @@ input, select, textarea {
 				}
 
 				#header .image.phone .inner:after {
-					border-color: rgba(255, 255, 255, 0.25);
+					/* border-color: rgba(255, 255, 255, 0.25); */
+					background: rgba(255, 255, 255, 0.25);
 				}
 
 		#header ul.alt > li {
